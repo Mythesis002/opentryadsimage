@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Hugging Face API Configuration
-HF_API_TOKEN = "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"  # Replace with your HF API token
+HF_API_TOKEN = "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"  # Replace with your HF API token
 HF_MODEL_ID = "prithivMLmods/Flux-Product-Ad-Backdrop"   # Hugging Face Model ID
 client = InferenceClient(HF_MODEL_ID, token=HF_API_TOKEN)
 
